@@ -1,0 +1,2 @@
+All the files in this repo are used as stubs in your application, which means that every file/folder will be moved from this folder into your application.
+Anything that you put in this folder `_ignore` will be ignored as a stub along with the `name.json` and `README.md`.
