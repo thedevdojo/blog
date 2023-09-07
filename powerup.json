@@ -8,8 +8,8 @@
         "migrations"
     ],
     "pages" : [
-        "/blog/index.blade.php",
-        "/blog/[Post:slug].blade.php"
+        "pages/blog/index.blade.php",
+        "pages/blog/[Post:slug].blade.php"
     ],
     "tables" : [
         "posts"
