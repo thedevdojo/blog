@@ -1,5 +1,10 @@
 {
     "name" : "Blog",
     "description" : "A blog power-up that adds blog functionality to your application.",
-    "cover" : "https://raw.githubusercontent.com/thedevdojo/blog/main/_ignore/art/cover.jpg"
+    "cover" : "https://raw.githubusercontent.com/thedevdojo/blog/main/_ignore/art/cover.jpg",
+    "includes" : ['pages', 'models', 'migrations'],
+    "details" : `
+        <h1>Coolio</h1>
+        <p>This is a test...</p>
+    `
 }
