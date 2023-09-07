@@ -15,6 +15,6 @@
         "posts"
     ],
     "models" : [
-        "App\Models\Post"
+        "App\\Models\\Post"
     ]
 }
