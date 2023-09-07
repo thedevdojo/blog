@@ -6,6 +6,5 @@
         "pages", 
         "models", 
         "migrations"
-    ],
-    "details" : "<h1>Coolio</h1><p>This is a test...</p>"
+    ] 
 }
