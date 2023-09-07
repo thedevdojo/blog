@@ -10,11 +10,5 @@
     "pages" : [
         "/blog/index.blade.php",
         "/blog/[Post:slug].blade.php"
-    ],
-    "tables" : [
-        "posts"
-    ],
-    "models" : [
-        "App\\Models\\Post"
     ]
 }
