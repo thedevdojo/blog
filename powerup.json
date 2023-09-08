@@ -16,5 +16,13 @@
     ],
     "models" : [
         "App\\Models\\Post"
+    ],
+    "commands" : [
+        "migrate"
+    ],
+    "factories" : [
+        {
+            "App\\Models\\Post" : "10"
+        }
     ]
 }
