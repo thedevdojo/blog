@@ -23,7 +23,8 @@
         ],
         "factories" : [
             {
-                "App\\Models\\Post" : "10"
+                "model" : "App\\Models\\Post",
+                "count" : "10"
             }
         ]
     }
