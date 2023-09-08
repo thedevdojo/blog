@@ -17,12 +17,14 @@
     "models" : [
         "App\\Models\\Post"
     ],
-    "commands" : [
-        "migrate"
-    ],
-    "factories" : [
-        {
-            "App\\Models\\Post" : "10"
-        }
-    ]
+    "run_after_install" : {
+        "commands" : [
+            "migrate"
+        ],
+        "factories" : [
+            {
+                "App\\Models\\Post" : "10"
+            }
+        ]
+    }
 }
