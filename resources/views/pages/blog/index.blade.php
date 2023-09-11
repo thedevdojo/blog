@@ -38,6 +38,9 @@ with(fn () => [
 ?>
 
 <x-layouts.marketing>
+
+    <x-ui.marketing.breadcrumbs :crumbs="[ ['text' => 'Blog'] ]" />
+
     @volt('blog.index')
         <div class="relative flex flex-col w-full px-6 py-10 mx-auto lg:max-w-6xl sm:max-w-xl md:max-w-full sm:pb-16">
             

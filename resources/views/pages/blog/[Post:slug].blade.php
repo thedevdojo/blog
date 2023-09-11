@@ -1,5 +1,16 @@
 <x-layouts.marketing>
-    <article class="relative w-full h-screen mx-auto prose prose-lg">
+
+    <x-ui.marketing.breadcrumbs :crumbs="[
+        [
+            'href' => '/blog',
+            'text' => 'Blog'
+        ],
+        [
+            'text' => $post->title
+        ]
+    ]" />
+
+    <article class="relative w-full h-auto mx-auto prose prose-lg">
         <div class="py-6 mx-auto heading md:py-12 lg:w-10/12 md:text-center">
 
             <div class="flex flex-col items-center justify-center mt-4">
