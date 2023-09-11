@@ -41,7 +41,7 @@ with(fn () => [
     @volt('blog.index')
         <div class="relative flex flex-col w-full px-6 py-10 mx-auto lg:max-w-6xl sm:max-w-xl md:max-w-full sm:pb-16">
             
-            <h1 class="text-2xl font-bold tracking-tighter leading-tighter font-heading md:text-3xl">Welcome to your new blog</h1>
+            <h1 class="text-2xl font-bold tracking-tighter leading-tighter dark:text-white font-heading md:text-3xl">Welcome to your new blog</h1>
             <p class="w-full mt-2 text-base font-medium text-neutral-400 dark:text-slate-400 md:mt-2">Find out all the latest news around A.I. We stay up-to-date with the latest technologies and AI news so you don't have to.</p>
 
             <div class="relative w-full mt-10 space-y-10">
