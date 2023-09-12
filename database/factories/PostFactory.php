@@ -29,7 +29,7 @@ final class PostFactory extends Factory
         return [
             'user_id' => \App\Models\User::factory(),
             'title' => fake()->sentence(),
-            'body' => fake()->paragraphs(4, true),
+            'body' => fake()->paragraphs(10, true),
             'image' => 'https://picsum.photos/1280/720?random=' . fake()->unique()->slug(),
             'slug' => fake()->unique()->slug(),
             'excerpt' => fake()->optional()->word,
