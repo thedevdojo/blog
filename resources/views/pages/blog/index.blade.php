@@ -62,7 +62,7 @@ with(fn () => [
                         <div class="w-7/12 mt-2">
                             <div class="mb-1 text-sm">
                                 <svg class="dark:text-gray-400 -mt-0.5 h-3.5 inline-block w-3.5" data-icon="tabler:clock" height="1em" viewBox="0 0 24 24" width="1em"><symbol id="ai:tabler:clock"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0"></path><path d="M12 7v5l3 3"></path></g></symbol><use xlink:href="#ai:tabler:clock"></use></svg> 
-                                <time class="inline-block">{{ date('F j, Y', $post->updated_at->timestamp) }}</time><span class="mx-2">·</span><a class="font-medium underline capitalize hover:underline" href="/category/documentation">{{ $post->user->name }}</a>
+                                <time class="inline-block dark:text-gray-400">{{ date('F j, Y', $post->updated_at->timestamp) }}</time><span class="mx-2">·</span><a class="font-medium underline capitalize hover:underline dark:text-gray-400" href="/category/documentation">{{ $post->user->name }}</a>
                             </div>
                             <h2 class="mb-2 text-xl font-medium leading-tight underline dark:text-slate-300 font-heading sm:text-2xl"><a class="transition duration-200 ease-in dark:hover:text-blue-700 hover:text-primary" href="{{ $this->route_prefix }}/{{ $post->slug }}">{{ $post->title }}</a></h2>
                             <p class="flex-grow text-lg font-light text-muted dark:text-slate-400">{{ substr(strip_tags($post->body), 0, 200) }}@if(strlen(strip_tags($post->body)) > 200){{ '...' }}@endif</p>
