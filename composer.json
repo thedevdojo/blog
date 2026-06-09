@@ -1,0 +1,39 @@
+{
+    "name": "devdojo/blog",
+    "description": "A drop-in blog (posts + categories, admin resources) for Laravel applications.",
+    "keywords": ["devdojo", "blog", "laravel"],
+    "homepage": "https://github.com/devdojo/blog",
+    "license": "MIT",
+    "type": "library",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Tony Lea",
+            "email": "tony@devdojo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3|^8.4",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/database": "^10.0|^11.0|^12.0"
+    },
+    "suggest": {
+        "filament/filament": "Required to use the bundled Post & Category admin resources (BlogPlugin)."
+    },
+    "autoload": {
+        "psr-4": {
+            "Devdojo\\Blog\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devdojo\\Blog\\BlogServiceProvider"
+            ]
+        }
+    }
+}
